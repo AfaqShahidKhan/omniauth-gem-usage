@@ -20,8 +20,8 @@ Devise.setup do |config|
   # config.secret_key = '71260354951ec3a8553cadc64de9ac200da3ebee114fb79323a36ea5f2554d17b471f29dae575de450c46e137cf4619b085d0932df6863038e3f585a5d35e4b0'
 
 
-  config.omniauth :facebook, '1437105617155281', '2b83a448cb31fd3a3178efb19e3fddd8'
-  config.omniauth :google_oauth2, ' 224841960702-ltuts0kcadehsv1ksrokklsq1l4ba8kn.apps.googleusercontent.com', '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'
+  config.omniauth :facebook, 'MyID', 'Secret'
+  config.omniauth :google_oauth2, 'Gid', 'GSecret'
 
 
 
